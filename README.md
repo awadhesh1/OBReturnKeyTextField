@@ -8,7 +8,7 @@ A subclass of UITextfield using Reactive Cocoa with a dynamic UIReturnKey button
 Usage:
 
 - Make sure you include ReactiveCocoa in your project (https://github.com/ReactiveCocoa/ReactiveCocoa) 
-  CocoPods:  pod 'ReactiveCocoa'.
+  CocoPods:  pod 'ReactiveCocoa'. If you running the host project , don't forget to initiate 'pod install'.
 
 - Copy OBReturnKeyTextField.h/OBReturnKeyTextField.m into your project.
 
@@ -17,7 +17,7 @@ Usage:
 
 - Import OBReturnKeyTextField:  #import "OBReturnKeyTextField.h"
 
-- Include the condition (BOOL) for when to show the return key:
+- Set the condition for when to show the return key (BOOL):
       [self.textField assignConditionForActionButton:^BOOL(NSString *string) {
             return [string isEqualToString:@"stop"];
        }]; 
