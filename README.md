@@ -8,7 +8,7 @@ A subclass of UITextfield using Reactive Cocoa with a dynamic UIReturnKey button
 Usage:
 
 - Make sure you include ReactiveCocoa in your project (https://github.com/ReactiveCocoa/ReactiveCocoa) 
-  CocoPods:  pod 'ReactiveCocoa'. If you running the host project , don't forget to initiate 'pod install'.
+  CocoPods:  pod 'ReactiveCocoa'. If you running the host project, initiate a 'pod install'.
 
 - Copy OBReturnKeyTextField.h/OBReturnKeyTextField.m into your project.
 
