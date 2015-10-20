@@ -1,11 +1,12 @@
 # OBReturnKeyTextField
-A subclass of UITextfield using Reactive Cocoa with a dynamic return-key keyboard button, set according to text validation/condition
+A subclass of UITextfield using Reactive Cocoa with a dynamic UIReturnKey button, set according to text validation/condition.
 
 
 
 
 
 Usage:
+
 - Make sure you include ReactiveCocoa in your project (https://github.com/ReactiveCocoa/ReactiveCocoa) 
   CocoPods:  pod 'ReactiveCocoa'.
 
@@ -21,17 +22,16 @@ Usage:
             return [string isEqualToString:@"stop"];
        }]; 
 
-- specify which type of return key the keyboard will show when the text condition is fulfilled:
+- specify which type of UIReturnKey the keyboard will show when the text condition is fulfilled:
       self.textField.onValidationReturnKeyType = UIReturnKeyGo;
 
 - optional: set action type for when the text condition is fulfilled:
-      self.textField.onValidationAction =   OnValidationAction_DismissWithDelegate / OnValidationAction_non
+      self.textField.onValidationAction =   
+        OnValidationAction_DismissWithDelegate / OnValidationAction_non
 
-OnValidationAction_non: default behavior - will dismiss the keyboard on press, and fire 'textFieldShouldReturn:' 
-with the chosen returnKey type.
+OnValidationAction_non: Default behavior - will dismiss the keyboard when the UIReturnKey press, and fire 'textFieldShouldReturn:' UITextfield Delegate (with the chosen UIReturnKey type).
 
-OnValidationAction_DismissWithDelegate - will automatically dismiss the keyboard when text condition is fulfilled,
-and fire the delegate with the chosen returnKey type. 
+OnValidationAction_DismissWithDelegate - will automatically dismiss the keyboard when text condition is fulfilled, and fire the delegate with the chosen UIReturnKey type. 
              
 - optional: set the desired textColor for when text condition is fulfilled:
              self.textField.onValidationTextColor = [UIColor redColor];

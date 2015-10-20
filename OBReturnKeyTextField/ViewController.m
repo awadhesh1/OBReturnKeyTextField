@@ -17,24 +17,33 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    //initiating a condition for showing the ReturnKey:
     [self.textField assignConditionForActionButton:^BOOL(NSString *string) {
         return [string isEqualToString:@"stop"];
     }];
     
+    //setting the UIReturnKey type:
     self.textField.onValidationReturnKeyType = UIReturnKeyGo;
+    
+    //setting the way validation will work (auto or when button pressed):
     self.textField.onValidationAction =  OnValidationAction_non;
+    
+    //setting text coloe when validation/condition is fulfilled:
     self.textField.onValidationTextColor = [UIColor redColor];
 }
 
 
 #pragma mark - UITextField Delegate:
 - (BOOL)textFieldShouldReturn:(UITextField *)textField{
-
+    
+    //set Action when button is "UIReturnKeyGo"
     if (textField.returnKeyType == UIReturnKeyGo) {
-        //some Action for "GoButton"
+        
     }
+    
+    //set Action when button is "UIReturnKeyDefault"
     if (textField.returnKeyType == UIReturnKeyDefault) {
-        //some Action for "DefaultButton"
+        
     }
     
     return YES;

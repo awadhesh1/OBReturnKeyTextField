@@ -39,7 +39,6 @@
     }] distinctUntilChanged]subscribeNext:^(id x) {
         @strongify(self);
         if ([x isEqual:@1]) {
-            
             self.returnKeyType = self.onValidationReturnKeyType?:self.currentReturnKeyType;
             self.textColor = self.onValidationTextColor?:self.currentTextColor;
              if (self.onValidationAction == OnValidationAction_DismissWithDelegate) {

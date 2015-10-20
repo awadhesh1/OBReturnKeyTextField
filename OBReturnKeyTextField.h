@@ -13,12 +13,11 @@ typedef NS_ENUM(NSInteger, OnValidationActionType) {
     OnValidationAction_DismissWithDelegate
 };
 
-
 @interface OBReturnKeyTextField : UITextField
+
 @property(nonatomic, assign)OnValidationActionType onValidationAction;
 @property(nonatomic, assign)UIReturnKeyType onValidationReturnKeyType;
 @property(nonatomic, strong)UIColor *onValidationTextColor;
-
 
 - (void)assignConditionForActionButton:(BOOL (^)(NSString *string))conditionBlock;
 
