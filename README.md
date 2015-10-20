@@ -22,10 +22,10 @@ Usage:
             return [string isEqualToString:@"stop"];
        }]; 
 
-- specify which type of UIReturnKey the keyboard will show when the text condition is fulfilled:
+- Specify which type of UIReturnKey the keyboard will show when the text condition is fulfilled:
       self.textField.onValidationReturnKeyType = UIReturnKeyGo;
 
-- optional: set action type for when the text condition is fulfilled:
+- Optional: set action type for when the text condition is fulfilled:
       self.textField.onValidationAction =   
         OnValidationAction_DismissWithDelegate / OnValidationAction_non
 
@@ -36,7 +36,7 @@ OnValidationAction_DismissWithDelegate - will automatically dismiss the keyboard
 - optional: set the desired textColor for when text condition is fulfilled:
              self.textField.onValidationTextColor = [UIColor redColor];
 
-- use the delegate: - (BOOL)textFieldShouldReturn:(UITextField *)textField 
+- Use the delegate: - (BOOL)textFieldShouldReturn:(UITextField *)textField 
   for preforming a desired action when text condition is fulfilled:
   
 if (textField.returnKeyType == UIReturnKeyGo) {
