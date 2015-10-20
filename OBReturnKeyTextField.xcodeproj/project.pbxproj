@@ -16,7 +16,6 @@
 		2E5786481BD5D40700C7B8FC /* OBReturnKeyTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5786471BD5D40700C7B8FC /* OBReturnKeyTextFieldTests.m */; };
 		2E5786531BD5D40700C7B8FC /* OBReturnKeyTextFieldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5786521BD5D40700C7B8FC /* OBReturnKeyTextFieldUITests.m */; };
 		2E5786611BD5D4F100C7B8FC /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 2E5786601BD5D4F100C7B8FC /* Podfile */; settings = {ASSET_TAGS = (); }; };
-		2E57866A1BD5E2AC00C7B8FC /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2E5786691BD5E2AC00C7B8FC /* README.md */; settings = {ASSET_TAGS = (); }; };
 		2E57866D1BD5E51500C7B8FC /* OBReturnKeyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E57866C1BD5E51500C7B8FC /* OBReturnKeyTextField.m */; settings = {ASSET_TAGS = (); }; };
 		8BF8E46C056B8570A41114F7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B869EC420A6FCB02BE8A41 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -342,7 +341,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E5786351BD5D40700C7B8FC /* ViewController.m in Sources */,
-				2E57866A1BD5E2AC00C7B8FC /* README.md in Sources */,
 				2E57866D1BD5E51500C7B8FC /* OBReturnKeyTextField.m in Sources */,
 				2E5786321BD5D40700C7B8FC /* AppDelegate.m in Sources */,
 				2E57862F1BD5D40700C7B8FC /* main.m in Sources */,
