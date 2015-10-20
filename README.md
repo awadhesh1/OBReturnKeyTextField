@@ -1,5 +1,6 @@
 # OBReturnKeyTextField
-A subclass of UITextfield using Reactive Cocoa for dynamically presenting keyboard return key according to text validation/condition.
+A subclass of UITextfield using Reactive Cocoa with a dynamic return-key keyboard button, set according to text validation/condition
+
 
 
 
