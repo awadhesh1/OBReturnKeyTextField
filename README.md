@@ -27,11 +27,11 @@ Usage:
 - optional: set action type for when the text condition is fulfilled:
       self.textField.onValidationAction =   OnValidationAction_DismissWithDelegate / OnValidationAction_non
 
-OnValidationAction_non: default behavior - will dismiss the keyboard when pressed, and fire 'textFieldShouldReturn:' 
-with the choden returnKey type.
+OnValidationAction_non: default behavior - will automatically dismiss the keyboard when pressed, and fire 'textFieldShouldReturn:' 
+with the chosen returnKey type.
 
 OnValidationAction_DismissWithDelegate - automatically dismiss the keyboard when the text condition is fulfilled,
-and fire the delegate with the choden returnKey type. 
+and fire the delegate with the chosen returnKey type. 
              
 - optional: set the desired textColor for when text condition is fulfilled:
              self.textField.onValidationTextColor = [UIColor redColor];
