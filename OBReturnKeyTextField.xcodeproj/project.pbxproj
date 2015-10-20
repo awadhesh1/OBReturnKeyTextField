@@ -17,6 +17,7 @@
 		2E5786531BD5D40700C7B8FC /* OBReturnKeyTextFieldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5786521BD5D40700C7B8FC /* OBReturnKeyTextFieldUITests.m */; };
 		2E5786611BD5D4F100C7B8FC /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 2E5786601BD5D4F100C7B8FC /* Podfile */; settings = {ASSET_TAGS = (); }; };
 		2E5786681BD5D81200C7B8FC /* OBReturnKeyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5786671BD5D81200C7B8FC /* OBReturnKeyTextField.m */; settings = {ASSET_TAGS = (); }; };
+		2E57866A1BD5E2AC00C7B8FC /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2E5786691BD5E2AC00C7B8FC /* README.md */; settings = {ASSET_TAGS = (); }; };
 		8BF8E46C056B8570A41114F7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B869EC420A6FCB02BE8A41 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		2E5786601BD5D4F100C7B8FC /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
 		2E5786661BD5D81200C7B8FC /* OBReturnKeyTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OBReturnKeyTextField.h; path = OBReturnKeyTextField/OBReturnKeyTextField.h; sourceTree = "<group>"; };
 		2E5786671BD5D81200C7B8FC /* OBReturnKeyTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OBReturnKeyTextField.m; path = OBReturnKeyTextField/OBReturnKeyTextField.m; sourceTree = "<group>"; };
+		2E5786691BD5E2AC00C7B8FC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		69D559757ED0B56E29BBF8F2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		DD1BC98E3577EE594EBB31A0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,6 +115,7 @@
 		2E57862C1BD5D40700C7B8FC /* OBReturnKeyTextField */ = {
 			isa = PBXGroup;
 			children = (
+				2E5786691BD5E2AC00C7B8FC /* README.md */,
 				2E5786301BD5D40700C7B8FC /* AppDelegate.h */,
 				2E5786311BD5D40700C7B8FC /* AppDelegate.m */,
 				2E5786331BD5D40700C7B8FC /* ViewController.h */,
@@ -348,6 +351,7 @@
 			files = (
 				2E5786681BD5D81200C7B8FC /* OBReturnKeyTextField.m in Sources */,
 				2E5786351BD5D40700C7B8FC /* ViewController.m in Sources */,
+				2E57866A1BD5E2AC00C7B8FC /* README.md in Sources */,
 				2E5786321BD5D40700C7B8FC /* AppDelegate.m in Sources */,
 				2E57862F1BD5D40700C7B8FC /* main.m in Sources */,
 			);
