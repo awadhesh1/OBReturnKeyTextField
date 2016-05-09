@@ -26,7 +26,7 @@
     self.textField.onValidationReturnKeyType = UIReturnKeyGo;
     
     //setting the way validation will work (auto or when button pressed):
-    self.textField.onValidationAction =  OnValidationAction_non;
+    self.textField.onValidationAction =  OnValidationAction_Non;
     
     //setting text coloe when validation/condition is fulfilled:
     self.textField.onValidationTextColor = [UIColor redColor];
