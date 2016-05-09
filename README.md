@@ -27,9 +27,9 @@ Usage:
 
 - Optional: set action type for when the text condition is fulfilled:
       self.textField.onValidationAction =   
-        OnValidationAction_DismissWithDelegate / OnValidationAction_non
+        OnValidationAction_DismissWithDelegate / OnValidationAction_Non
 
-OnValidationAction_non: Default behavior - will dismiss the keyboard when the UIReturnKey press, and fire 'textFieldShouldReturn:' UITextfield Delegate (with the chosen UIReturnKey type).
+OnValidationAction_Non: Default behavior - will dismiss the keyboard when the UIReturnKey press, and fire 'textFieldShouldReturn:' UITextfield Delegate (with the chosen UIReturnKey type).
 
 OnValidationAction_DismissWithDelegate - will automatically dismiss the keyboard when text condition is fulfilled, and fire the delegate with the chosen UIReturnKey type. 
              
